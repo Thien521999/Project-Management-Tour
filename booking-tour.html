@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- end reset css -->
+
+    <!--font Roboto  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--end font Roboto  -->
+
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+	
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.1-web/css/all.min.css">
+    <!-- end font awesome -->
+    <!-- Thu cua cua toi -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link href="css/screen.css" rel="stylesheet">
+    <!--end Thu cua cua toi -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <header class="header">
+                <div class="grid wide">
+                    <nav class="header__navbar">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item">
+                                <a class="header__navbar-link" href="">
+                                    <div class="logo">
+                                        <div class="logo__content">Nicetrip</div>
+                                        <div class="logo__content-small">travel agency</div>
+                                        <div class="logo_image">
+                                            <img src="img/logo/logo.png" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__navbar-item header__navbar--tour">
+                                <a class="header__navbar-link header__navbar-active" href="">Tours</a>
+
+                                <ul class="header__navbar-tour-list">
+                                    <li class="header__navbar-tour-item">
+                                        <a href="">Tour trong nước</a>
+                                    </li>
+                                    <li class="header__navbar-tour-item">                     
+                                        <a href="">Tour ngoài nước</a>
+                                    </li>              
+                                </ul>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a class="header__navbar-link" href="">Book vé máy bay</a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a class="header__navbar-link" href="">Book phòng</a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a class="header__navbar-link" href="">Cẩm nang du lịch</a>
+                            </li>
+                            <li class="header__navbar-item header__navbar--navbar">
+                                <a class="header__navbar-link" id="three_dot" href="" ><i class="fa fa-ellipsis-h"></i></a>
+                                
+                                <ul class="header__navbar-menu">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-text" href="">Tài khoản đặt phòng </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-text" href="">Cẩm nang du lịch</a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-text" href="">Giới thiệu</a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-text" href="">Hỏi đáp </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-text" href="">Hỗ trợ</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="header__navbar-list">
+                            <!-- <li class="header__navbar-item header__navbar--icon">
+                                <a href=""><i class="header__search-icon fas fa-search"></i></a>
+                            </li> -->
+                            <li class="header__navbar-item header__navbar-user">
+                                <img class="header__navbar-user-img" src="https://res.ivivu.com/hotel/img/avatars/avatar-default-white.svg" alt="">
+                                <span class="header__navbar-user-name" id="account">Tài khoản</span>
+
+                                <ul class="header__navbar-user-menu" id="box-form">
+                                    <li class="header__navbar-user-item header__navbar-user-login">
+                                        <button class="header-login" id="login">Đăng nhập</button>
+                                    </li>               
+                                    <li class="header__navbar-user-item header__navbar-user-register">
+                                        <span class="text">Chưa có tài khoản?</span>
+                                        <span><span class="register-link text" id="register">Đăng ký</span></span>
+                                        <span class="text">ngay</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- <li class="header__navbar-item">
+                                <a href="tel:0387878335">0387878335</a>
+                            </li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <div class="app__content">
+            <div class="content_header">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <ul class="content__top">
+                                <li class="content__item"><i class="fas fa-home"></i></li>
+                                <li class="content__item"><a href="">Trang chủ </a></li>
+                                <li class="content__item">-</li>
+                                <li class="content__item">Đặt tour</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content_container">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 ">
+                            <img class="img-left-main" width="" src="img/thanhhuong-183124053138-netherlands.jpg" />
+                        </div>
+                        <div class="col l-8">
+                            <div class="row">
+                                <div class="mda-in-for">
+                                    <div class="col l-12 mda-info">
+                                        <h3 class="mda-info__title">Tour Miền Tây 4N3D: HCM - Mỹ Tho - Cần Thơ - Côn Đảo Tết Tân Sửu</h3>
+                                    </div>
+                                    <div class="col l-12">
+                                        <div class="mda-info-list">
+                                            <div class="mda-row">
+                                                <span class="mda-row__be">Mã tour:</span> 
+                                                <span class="mda-row__content" style="font-weight: bold;">2</span> 
+                                            </div>
+                                            <div class="mda-row"><span class="mda-row__be">Thời gian:</span> 
+                                                <span class="mda-row__content" style="font-weight: bold;">2 ngày</span>
+                                            </div>
+                                            <div class="mda-row">
+                                                <span class="mda-row__be">Ngày khởi hành:</span>
+                                                <span class="mda-row__content" style="font-weight: bold;">2020-12-21</span>
+                                                <a class="mda-day-other" href="https://dulichviet.com.vn/du-lich-trong-nuoc/du-lich-tet-nguyen-dan-mien-bac-ha-long-sapa-fansipan-4-ngay-tu-sai-gon-2021">Ngày khác</a>
+                                            </div>
+                                                                                              
+                                            <div class="mda-row">
+                                                <span class="mda-row__be">Giá:</span>
+                                                <span class="mda-row__content" style="font-weight: bold;" id="total-all">100</span> $</div>
+                                            <div class="mda-row">
+                                                <span class="mda-row__be">Số chỗ còn nhận:</span> 
+                                                <span class="mda-row__content" id="numberticketempty" style="font-weight: bold;">28</span>
+                                            </div>
+                                                                                                                     
+                                            <div class="mda-row">
+                                                <span class="mda-row__be">Nơi khởi hành:</span>
+                                                <span class="mda-row__content" style="font-weight: bold;">Hồ Chí Minh</span>
+                                            </div>
+                                            
+                                            <input type="hidden" name="con" id="con" value="6">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-12">
+                            <ul class="mda-list-design">
+                                <li>
+                                    <span class="mda-list__size" style="color: #ff0000;">
+                                        Các khoản phí phát sinh (nếu có) như: phụ thu dành cho khách nước ngoài, việt kiều; phụ thu phòng đơn; phụ thu chênh lệch giá tour… Nhân viên Du Lịch Việt sẽ gọi điện thoại tư vấn cho quý khách ngay sau khi có phiếu xác nhận
+                                        booking. (Trong giờ hành chính)
+                                    </span>
+                                </li>
+                                <li style="text-align: justify;">
+                                    <span class="mda-list__size" style="color: #ff0000;">Trường hợp quý khách không đồng ý các khoản phát sinh, phiếu xác nhận booking của quý khách sẽ không có hiệu lực.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-12">
+                            <div class="table-price">
+                                <div class="table-price__title">
+                                    <span class="table-price__name">Bảng giá tour chi tiết</span>
+                                </div>
+
+                                <table class="table_table">
+                                    <tr>
+                                        <td class="cot-header">Loại giá\Độ tuổi</td>
+                                        <td class="cot-header">Người lớn(Trên 11 tuổi)</td>
+                                        <td class="cot-header">Trẻ em(5 - 11 tuổi)</td>
+                                        <td class="cot-header">Trẻ nhỏ(2 - 5 tuổi)</td>
+                                        <td class="cot-header">Sơ sinh( &lt; 2 tuổi)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>Giá</span></td>
+                                    
+                                        <td><span id="NAdult" class="mda-money">100</span> $</td>
+                                        <td><span id="NChildren" class="mda-money">80</span> $</td>
+                                        <td><span id="NBaby" class="mda-money">60</span> $</td>
+                                        <td><span id="NInfant" class="mda-money">0</span> $</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span>Phụ thu Nước Ngoài</span></td>
+                                        <td><span class="mda-money">790,000</span> đ</td>
+                                        <td><span class="mda-money">0</span> đ</td>
+                                        <td><span class="mda-money">0</span> đ</td>
+                                        <td><span class="mda-money">0</span> đ</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><span>Phụ thu Việt Kiều</span></td>
+                                        <td><span class="mda-money">790,000</span> đ</td>
+                                        <td><span class="mda-money">0</span> đ</td>
+                                        <td><span class="mda-money">0</span> đ</td>
+                                        <td><span class="mda-money">0</span> đ</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <span><b>Phụ thu Phòng đơn</b></span>
+                                        </td>
+                                        <td colspan="4" style="text-align: center;"><span class="mda-money">1,750,000</span> đ</td>
+                                    </tr>
+                                    
+                                </table>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col l-12">
+                            <form action="" id="booktour-form" method="post" style="position: relative;" novalidate="novalidate">
+                                <div class="mda-tilte-3">
+                                    <span class="mda-tilte-name">Booking Tour</span>
+                                </div>
+                                <div class="">
+                                    <div class="row">                                          
+                                        <div class="col l-3 form-group">
+                                            <div class="people">Người lớn: </div>
+                                            <input type="number" onchange="myTicketAdult()" id="adult" name="QAdult" class="form-control mda-quantity tour-quantity1 q-adult1" value="1" min="1" max="20">
+                                        </div>
+                                        <div class="col l-3 form-group">
+                                            <div class="people">Trẻ em(5 - 11 tuổi) : </div>
+                                            <input type="number" onchange="myTicketAdult()" id="children" name="QChild" class="form-control mda-quantity tour-quantity1 q-child1" min="0" value="0" max="15">
+                                        </div>
+                                        <div class="col l-3 form-group">
+                                            <div class="people">Trẻ nhỏ( 2 - 5 tuổi): </div>
+                                            <input type="number" onchange="myTicketAdult()" id="baby" name="QBaby" class="form-control mda-quantity tour-quantity1 q-baby1" min="0" value="0" max="15">
+                                        </div>
+                                        <div class="col l-3 form-group">
+                                            <div class="people">Sơ sinh(nhỏ hơn 2 tuổi): </div>
+                                            <input type="number" onchange="myTicketAdult()" id="infant" name="QInfant" class="form-control mda-quantity tour-quantity1 q-infant1" min="0" value="0" max="15">
+                                        </div>
+                                        <div class="col l-12 form-group"> 
+                                            <div class="txtTotal">  
+                                                Tổng giá trị : 
+                                                <span id="total" name="totalprice" class="total">5,200,000</span><span>đ</span>
+                                                <input name="totalprice" class="total" type="hidden" value="100">                                              
+                                            </div>                                                                                                                                          
+                                        </div> 
+                                    </div>   
+                                </div>
+                                
+                                
+                                    <div class="text-center" >
+                                        <a href="index.php?page=thongbao&amp;matour=2">
+                                            <input class="btn-thanhtoan thanhtoan" name="thanhtoan" value="HOÀN THÀNH" type="submit">
+                                        </a>    
+                                    </div>  
+                                    
+                                                    
+                                <div class="clear"></div>
+                            </form>
+                        </div>
+                    </div>
+                                       
+                </div>
+            </div>
+            
+            
+
+            
+        </div>
+        <footer class="footer">
+            <div class="grid wide footer_content">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng Dẫn Mua Hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính Sách Vận Chuyển</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                            VỀ NICETRIP
+                        </h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chúng tôi</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">NICETRIP Blog</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">PMS - Miễn phí</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Thông Tin Cần Biết</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">                               
+                                <a href="" class="footer-item__link">
+                                    Điều kiện & Điều khoản                             
+                                </a>                       
+                            </li>  
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">
+                                    Quy chế hoạt động
+                                </a>
+                            </li>        
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">
+                                    Câu hỏi thường gặp
+                                </a>  
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                            THEO DÕI CHÚNG TÔI TRÊN
+                        </h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">                               
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>                       
+                            </li>  
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>        
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram"></i>
+                                    Linkedin
+                                </a>  
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading">
+                            VÀO CỬA HÀNG TRÊN ỨNG DỤNG NICETRIP
+                        </h3>
+                        <div class="footer__download">
+                            <img src="img/qr_code.png" alt="Download QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="img/googleplay.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
+                                <a href=""  class="footer__download-app-link">
+                                    <img src="img/app_store.png" alt="App Store" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text">© 2021 - Bản quyền thuộc về Công ty TNHH NICETRIP</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+
+
+        <!-- Modal  layout -->
+        <div class="modal" id="modal">
+            <!-- Phan mau den mo -->
+            <div class="modal__overlay">
+            </div>
+
+            <div class="modal__body">                                            
+                <!--Login  form -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập </h3>
+                            <span class="auth-form_switch-btn" id="register_header">Đăng ký</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help--link auth-form__help--focus">Quân mật khẩu</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help--link">Cần trợ giúp</a>
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__controls-back" id="home">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook auth-form__socials-icon btn btn--size-s btn--width-icon">
+                            <i class="fab fa-facebook"></i>
+                            <span class="auth-form__socials-label">Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google auth-form__socials-icon btn btn--size-s btn--width-icon">
+                            <i class="fab fa-google"></i>
+                            <span class="auth-form__socials-label">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <!-- Modal  layout 2-->
+        <div class="modal2" id="modal2">
+            <!-- Phan mau den mo -->
+            <div class="modal__overlay2">
+            </div>
+
+            <div class="modal__body2">
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký </h3>
+                            <span class="auth-form_switch-btn" id="login__header">Đăng nhập</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng ký, bạn đã đồng ý với NICETRIP về
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__controls-back" id="home2">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook auth-form__socials-icon btn btn--size-s btn--width-icon">
+                            <i class="fab fa-facebook"></i>
+                            <span class="auth-form__socials-label">Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google auth-form__socials-icon btn btn--size-s btn--width-icon">
+                            <i class="fab fa-google"></i>
+                            <span class="auth-form__socials-label">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div>               
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="js/lib/modernizr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/box-slider-all.jquery.min.js"></script>
+    <script src="js/detail.js"></script>
+      
+</body>
+</html>

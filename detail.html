@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- end reset css -->
+
+    <!--font Roboto  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--end font Roboto  -->
+
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+	
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.1-web/css/all.min.css">
+    <!-- end font awesome -->
+    <!-- Thu cua cua toi -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link href="css/screen.css" rel="stylesheet">
+    <!--end Thu cua cua toi -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <header class="header">
+                <div class="grid wide">
+                    <nav class="header__navbar">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item">
+                                <a class="header__navbar-link" href="">
+                                    <div class="logo">
+                                        <div class="logo__content">Nicetrip</div>
+                                        <div class="logo__content-small">travel agency</div>
+                                        <div class="logo_image">
+                                            <img src="img/logo/logo.png" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__navbar-item header__navbar--tour">
+                                <a class="header__navbar-link header__navbar-active" href="">Tours</a>
+
+                                <ul class="header__navbar-tour-list">
+                                    <li class="header__navbar-tour-item">
+                                        <a href="">Tour trong nước</a>
+                                    </li>
+                                    <li class="header__navbar-tour-item">                     
+                                        <a href="">Tour ngoài nước</a>
+                                    </li>              
+                                </ul>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a class="header__navbar-link" href="">Book vé máy bay</a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a class="header__navbar-link" href="">Book phòng</a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a class="header__navbar-link" href="">Cẩm nang du lịch</a>
+                            </li>
+                            <li class="header__navbar-item header__navbar--navbar">
+                                <a class="header__navbar-link" id="three_dot" href="" ><i class="fa fa-ellipsis-h"></i></a>
+                                
+                                <ul class="header__navbar-menu">
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-text" href="">Tài khoản đặt phòng </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-text" href="">Cẩm nang du lịch</a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-text" href="">Giới thiệu</a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-text" href="">Hỏi đáp </a>
+                                    </li>
+                                    <li class="header__navbar-menu-item">
+                                        <a class="header__navbar-text" href="">Hỗ trợ</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="header__navbar-list">
+                            <!-- <li class="header__navbar-item header__navbar--icon">
+                                <a href=""><i class="header__search-icon fas fa-search"></i></a>
+                            </li> -->
+                            <li class="header__navbar-item header__navbar-user">
+                                <img class="header__navbar-user-img" src="https://res.ivivu.com/hotel/img/avatars/avatar-default-white.svg" alt="">
+                                <span class="header__navbar-user-name" id="account">Tài khoản</span>
+
+                                <ul class="header__navbar-user-menu" id="box-form">
+                                    <li class="header__navbar-user-item header__navbar-user-login">
+                                        <button class="header-login" id="login">Đăng nhập</button>
+                                    </li>               
+                                    <li class="header__navbar-user-item header__navbar-user-register">
+                                        <span class="text">Chưa có tài khoản?</span>
+                                        <span><span class="register-link text" id="register">Đăng ký</span></span>
+                                        <span class="text">ngay</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- <li class="header__navbar-item">
+                                <a href="tel:0387878335">0387878335</a>
+                            </li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <div class="app__content">
+            <div class="content_header">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <ul class="content__top">
+                                <li class="content__item"><i class="fas fa-home"></i></li>
+                                <li class="content__item"><a href="">Trang chủ </a></li>
+                                <li class="content__item">-</li>
+                                <li class="content__item">Tour Miền Tây 4N3D: HCM - Mỹ Tho - Cần Thơ - Côn Đảo Tết Tân Sửu</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content_container">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <h2 class="name_tour">Tour Miền Tây 4N3D: HCM - Mỹ Tho - Cần Thơ - Côn Đảo Tết Tân Sửu</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="content_main">
+                            <div class="col l-8">   
+                                <div id="page">
+                                    <section>
+                                        <header>
+                                            <div id="time-indicator"></div>
+                                        </header>                                    
+                                        <div id="viewport">
+                                            <div id="box">
+                                                <figure class="slide jbs-current">
+                                                    <img width="" src="img/thanhhuong-183124053138-netherlands.jpg" />
+                                                </figure>
+                                                <figure class="slide">
+                                                    <img src="img/thanhhuong-183324053351-xe-dap-ha-lan.jpg" />
+                                                </figure>
+                                                <figure class="slide">
+                                                    <img src="img/thanhhuong-183324053351-xe-dap-ha-lan.jpg" />
+                                                </figure>
+                                                <figure class="slide">
+                                                    <img src="img/thanhhuong-183624053636-Amsterdam.jpg" />
+                                                </figure>
+                                                <figure class="slide">
+                                                    <img src="img/thanhhuong-183124053138-netherlands.jpg" />
+                                                </figure>
+
+                                                <!-- <span class="prev slick-arrow" aria-label="Previous" type="button" >
+                                                    <a class="increment-control" href="#" id="prev" title="go to the next slide">
+                                                        <i class="icon__left fas fa-angle-left"></i>
+                                                    </a>
+                                                </span>
+                                                <span class="next slick-arrow" aria-label="Next" type="button" >
+                                                    <a class="increment-control" href="#" id="next" title="go to the next slide">
+                                                        <i class="icon__right fas fa-angle-right"></i>
+                                                    </a>
+                                                </span> -->
+                                            </div>
+                                            
+                                            <span class="prev slick-arrow" aria-label="Previous" type="button" >
+                                                <a class="increment-control" href="#" id="prev" title="go to the next slide">
+                                                    <i class="icon__left fas fa-angle-left"></i>
+                                                </a>
+                                            </span>
+                                            <span class="next slick-arrow" aria-label="Next" type="button" >
+                                                <a class="increment-control" href="#" id="next" title="go to the next slide">
+                                                    <i class="icon__right fas fa-angle-right"></i>
+                                                </a>
+                                            </span>
+                                        </div>
+                                
+                                        <footer>
+                                            <nav class="slider-controls">
+                                                <!-- <a class="increment-control" href="#" id="prev" title="go to the next slide">&laquo; Prev</a>
+                                                <a class="increment-control" href="#" id="next" title="go to the next slide">Next &raquo;</a> -->
+                                
+                                                <!-- <ul id="controls">
+                                                    <li><a class="goto-slide current" href="#" data-slideindex="0"></a></li>
+                                                    <li><a class="goto-slide" href="#" data-slideindex="1"></a></li>
+                                                    <li><a class="goto-slide" href="#" data-slideindex="2"></a></li>
+                                                    <li><a class="goto-slide" href="#" data-slideindex="3"></a></li>
+                                                    <li><a class="goto-slide" href="#" data-slideindex="4"></a></li>
+                                                </ul> -->
+                                            </nav>
+                                        </footer>
+                                    </section>
+                                
+                                    <aside id="effect-switcher">
+                                        <!-- <h2>Select an effect</h2> -->
+                                        <ul id="effect-list">
+                                            <!-- <li><a href="#" class="effect current" data-fx="scrollVert3d">Vertical 3D scroll</a></li>
+                                            <li><a href="#" class="effect" data-fx="scrollHorz3d">Horizontal 3D scroll</a></li>
+                                            <li><a href="#" class="effect" data-fx="tile3d">3D tiles</a></li>
+                                            <li><a href="#" class="effect" data-fx="tile">2D tiles</a></li> -->
+                                            <!-- <li><a href="#" class="effect" data-fx="scrollVert">Vertical scroll</a></li>
+                                            <li><a href="#" class="effect" data-fx="scrollHorz">Horizontal scroll</a></li>
+                                            <li><a href="#" class="effect" data-fx="blindLeft">Blind left</a></li>
+                                            <li><a href="#" class="effect" data-fx="blindDown">Blind down</a></li>
+                                            <li><a href="#" class="effect" data-fx="fade">Fade</a></li> -->
+                                        </ul>
+                                    </aside>                                                    
+                                </div>     
+                            
+                                <!-- Điểm nhấn hành trình -->
+                                <div class="boxTour" id="flag1">
+                                    <div class="title">
+                                        <span class="icon__info-circle">
+                                            <i class="fas fa-info-circle"></i>
+                                        </span>
+                                        <span class="title__name">Điểm nhấn hành trình</span>
+                                    </div>
+                                    <div class="boxTour__content">
+                                        <div class="boxTour__table">
+                                            <table class="table" align="left" border="0" cellpadding="5" cellspacing="5" style="width: 100%;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="boxTour__td" style="text-align: justify; width: 20%;">
+                                                            <strong><span class="boxTour__text" >Hành trình:</span></strong>
+                                                        </td>
+                                                        <td class="boxTour__td" style="text-align: justify;">
+                                                            <strong><span class="boxTour__text" >Tour Miền Tây 4N3D: HCM - Mỹ Tho - Cần Thơ - Côn Đảo Tết Tân Sửu</span></strong>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="boxTour__td" style="text-align: justify;">
+                                                            <strong><span class="boxTour__text" >Lịch trình:</span></strong>
+                                                        </td>
+                                                        <td class="boxTour__td" style="text-align: justify;">
+                                                            <strong><span class="boxTour__text" >5 ngày 4 đêm</span></strong>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="boxTour__td" style="text-align: justify;">
+                                                            <strong><span class="boxTour__text" >Ngày khởi hành:</span></strong>
+                                                        </td>
+                                                        <td class="boxTour__td" style="text-align: justify;">
+                                                            <strong><span class="boxTour__text" >08,15/01/2021</span></strong>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="boxTour__td" style="text-align: justify;">
+                                                            <strong><span class="boxTour__text" >Vận chuyển:</span></strong>
+                                                        </td>
+                                                        <td class="boxTour__td" style="text-align: justify;">
+                                                            <strong><span class="boxTour__text" >Máy bay khứ hồi &amp; xe du lịch đời mới</span></strong>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>        
+                                        </div>
+                                      
+                                        <div class="boxTour__main">
+                                            <span class="boxTour-bold"><i>Tour Miền Tây 4N3D: HCM - Mỹ Tho - Cần Thơ - Côn Đảo Tết Tân Sửu</i></span>
+                                            <i class="boxTour-nhat">&nbsp; đưa du khách đến không gian xanh mát của núi rừng. Hành trình du lịch Đông Bắc, đưa du khách tham quan những thắng cảnh đồi núi trùng điệp hùng vĩ, hay những thác nước chảy cuồn cuộn, những cảnh thiên nhiên thơ mộng, hay sự nhộn nhịp của những con phố cổ. </i>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Lịch trình -->
+                                <div class="boxTour" id="flag2">
+                                    <div class="title">
+                                        <span class="icon__info-circle"><i class="fa fa-map"></i></span>
+                                        <span class="title__name">Lịch trình</span>
+                                    </div>
+                                    <div class="listDay">
+                                        <div class="day">
+                                            <div class="titDay day1">
+                                                <span class="icon"><i class="fas fa-dot-circle"></i></span>
+                                                <span >NGÀY 1 |</span> 
+                                                TP.HCM – TUY HÒA – GÀNH ĐÁ DĨA (ăn trưa, chiều)
+                                            </div>
+                                            <div class="contDay1">
+                                                <div class="the-content desc">                                                    
+                                                    <div style="text-align: justify;"><strong>Sáng: </strong>&nbsp;Quý khách có mặt tại ga quốc nội, sân bay Tân Sơn Nhất trước giờ bay ít nhất ba tiếng.</div>
+                                                    <ul>
+                                                        <li style="text-align: justify;">Đại diện công ty <strong>Du Lịch Việt</strong> đón và hỗ trợ Quý Khách làm thủ tục đón chuyến bay đi <strong>Tuy Hòa</strong>.&nbsp;</li>
+                                                        <li style="text-align: justify;">
+                                                            Đến sân bay Tuy Hòa, Hướng dẫn viên đón đoàn viếng nhà thờ <strong>Mằng Lăng</strong> - một trong những nhà thờ cổ nhất Việt Nam mang đậm dấu ấn kiến trúc thế kỷ XIX.                          
+                                                        </li>
+                                                    </ul>
+                                                    <div style="text-align: justify;">
+                                                        <strong>Trưa:</strong>&nbsp;Dùng cơm trưa.
+                                                        <ul>
+                                                            <li>
+                                                                Đoàn khởi hành đến <strong>Bãi Xép (Gành Xép)</strong> một bãi cát vàng óng kéo dài giữa hai mũi đá lớn nhô ra biển.
+                                                            </li>
+                                                            <li>Tại đây du khách có thể lưu lại những bức hình kỉ niệm với các bãi đá đen, cát vàng óng, bãi cỏ rộng mênh mông .</li>
+                                                        </ul>
+                                                    </div>
+                                                    <p><strong>Chiều: </strong>Dùng cơm chiều. Nghỉ đêm tại <strong>Tuy Hoà.</strong></p>
+                                                    <ul>
+                                                        <li>Quý khách tự do mua sắm các đặc sản <strong>Phú Yên</strong> như: khô cá ngừ đại dương, bò một nắng hai sương, muối kiến vàng lá then leng…</li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>  
+                                        
+                                        <div class="day">
+                                            <div class="titDay day2">
+                                                <span class="icon"><i class="fas fa-dot-circle"></i></span>
+                                                <span >NGÀY 2 |</span> 
+                                                TP.HCM – TUY HÒA – GÀNH ĐÁ DĨA (ăn trưa, chiều)
+                                            </div>
+                                            <div class="contDay2">
+                                                <div class="the-content desc">                                                    
+                                                    <div style="text-align: justify;"><strong>Sáng: </strong>&nbsp;Quý khách có mặt tại ga quốc nội, sân bay Tân Sơn Nhất trước giờ bay ít nhất ba tiếng.</div>
+                                                    <ul>
+                                                        <li style="text-align: justify;">Đại diện công ty <strong>Du Lịch Việt</strong> đón và hỗ trợ Quý Khách làm thủ tục đón chuyến bay đi <strong>Tuy Hòa</strong>.&nbsp;</li>
+                                                        <li style="text-align: justify;">
+                                                            Đến sân bay Tuy Hòa, Hướng dẫn viên đón đoàn viếng nhà thờ <strong>Mằng Lăng</strong> - một trong những nhà thờ cổ nhất Việt Nam mang đậm dấu ấn kiến trúc thế kỷ XIX.                          
+                                                        </li>
+                                                    </ul>
+                                                    
+                                                    <div style="text-align: justify;">
+                                                        <strong>Trưa:</strong>&nbsp;Dùng cơm trưa.
+                                                        <ul>
+                                                            <li>
+                                                                Đoàn khởi hành đến <strong>Bãi Xép (Gành Xép)</strong> một bãi cát vàng óng kéo dài giữa hai mũi đá lớn nhô ra biển.
+                                                            </li>
+                                                            <li>Tại đây du khách có thể lưu lại những bức hình kỉ niệm với các bãi đá đen, cát vàng óng, bãi cỏ rộng mênh mông .</li>
+                                                        </ul>
+                                                    </div>
+                                                    
+                                                    <p><strong>Chiều: </strong>Dùng cơm chiều. Nghỉ đêm tại <strong>Tuy Hoà.</strong></p>
+                                                    <ul>
+                                                        <li>Quý khách tự do mua sắm các đặc sản <strong>Phú Yên</strong> như: khô cá ngừ đại dương, bò một nắng hai sương, muối kiến vàng lá then leng…</li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>  
+                                        
+                                    </div>
+                                    
+                                </div>   
+                                
+                                <!-- Dịch vụ đi kèm -->
+                                <div class="boxTour" id="flag3">
+                                    <div class="title">
+                                        <span class="icon__info-circle">
+                                            <i class="fa fa-paperclip"></i>
+                                        </span>
+                                        <span class="title__name">Dịch vụ đi kèm</span>
+                                    </div>
+                                    <div class="boxTour__content">
+                                        <div class="col l-12 ">
+                                            <div class="row tourService">
+                                                <div class="col l-4 tourServiceItem">
+                                                        <i class="fas fa-check text-blue"></i>Bảo hiểm
+                                                    </span>
+                                                </div>
+                                                <div class="col l-4 tourServiceItem">
+                                                    <span>
+                                                        <i class="fas fa-utensils text-blue"></i><span>Bữa ăn</span>
+                                                    </span>
+                                                </div>
+                                                <div class="col l-4 tourServiceItem">
+                                                    <span>
+                                                        <i class="fas fa-flag text-blue"></i>Hướng dẫn viên
+                                                    </span>
+                                                </div>                                            
+                                            </div>
+                                            <div class="row tourService">
+                                                <div class="col l-4 tourServiceItem">
+                                                    <span>
+                                                        <i class="fas fa-ticket-alt text-blue"></i>Vé tham quan
+                                                    </span>
+                                                </div>
+                                                <div class="col l-4 tourServiceItem">
+                                                    <span>
+                                                        <i class="fas fa-bus text-blue"></i>Xe đưa đón
+                                                    </span>
+                                                </div>
+                                                                                          
+                                            </div>
+                                        </div>                                       
+                                    </div>
+                                </div>
+                                <!-- Ngày khởi hành khác -->
+                                <!-- <div class="boxTour" id="flag4">
+                                    <div class="title">
+                                        <span class="icon__info-circle">
+                                            <i class="fas fa-calendar"></i>
+                                        </span>
+                                        <span class="title__name">Ngày khởi hành khác</span>
+                                    </div>
+                                    <div class="boxTour__content">
+                                        <div class="col l-12 ">
+                                            <div class="row tourService">
+                                                <div class="col l-4 tourServiceItem">
+                                                        <i class="fas fa-check text-blue"></i>Bảo hiểm
+                                                    </span>
+                                                </div>
+                                                <div class="col l-4 tourServiceItem">
+                                                    <span>
+                                                        <i class="fas fa-utensils text-blue"></i><span>Bữa ăn</span>
+                                                    </span>
+                                                </div>
+                                                <div class="col l-4 tourServiceItem">
+                                                    <span>
+                                                        <i class="fas fa-flag text-blue"></i>Hướng dẫn viên
+                                                    </span>
+                                                </div>                                            
+                                            </div>
+                                            <div class="row tourService">
+                                                <div class="col l-4 tourServiceItem">
+                                                    <span>
+                                                        <i class="fas fa-ticket-alt text-blue"></i>Vé tham quan
+                                                    </span>
+                                                </div>
+                                                <div class="col l-4 tourServiceItem">
+                                                    <span>
+                                                        <i class="fas fa-bus text-blue"></i>Xe đưa đón
+                                                    </span>
+                                                </div>
+                                                                                          
+                                            </div>
+                                        </div>                                       
+                                    </div>
+                                </div> -->
+                                
+                                <!-- Điều khoản -->
+                                <div class="boxTour" id="flag3">
+                                    <div class="title">
+                                        <span class="icon__info-circle">
+                                            <i class="fa fa-paperclip"></i>
+                                        </span>
+                                        <span class="title__name">Điều khoản</span>
+                                    </div>
+
+                                    
+
+                                    <div class="boxTour__contents">
+                                        <!-- <ul class="nav nav-tabs" role="tablist">
+                                            <li role="presentation" class="">
+                                                <a href="#tabpanel1" role="tab" id="tab1" data-toggle="tab" aria-controls="tabpanel1" aria-expanded="false"><span class="visible-lg-inline">Giá</span> Bao Gồm</a>
+                                            </li>
+                                            <li role="presentation" class="">
+                                                <a href="#tabpanel2" role="tab" id="tab2" data-toggle="tab" aria-controls="tabpanel2" aria-expanded="false"><span class="visible-lg-inline">Giá</span> Không Bao Gồm</a>
+                                            </li>
+                                            <li role="presentation" class="">
+                                                <a href="#tabpanel3" role="tab" id="tab3" data-toggle="tab" aria-controls="tabpanel3" aria-expanded="false">Hủy Đổi</a>
+                                            </li>
+                                            <li role="presentation" class="active">
+                                                <a href="#tabpanel4" role="tab" id="tab4" data-toggle="tab" aria-controls="tabpanel4" aria-expanded="true">Lưu ý</a>
+                                            </li>
+                                        </ul> -->
+                                        
+                                        <div class="col l-12 ">
+                                            <div class="row tourService">
+                                                <!-- <div class="col l-3 tourServiceItem">
+                                                    <button class="tablink" onclick="openContent('PriceInclude',this, 'yellow')" id="defaultOpen">Gía bao gồm</button>
+                                                </div>
+                                                <div class="col l-3 tourServiceItem">
+                                                    <button class="tablink" onclick="openContent('PriceUnInclude',this, 'yellow')">Gía không bao gồm</button>
+                                                </div>
+                                                <div class="col l-3 tourServiceItem">
+                                                    <button class="tablink" onclick="openContent('Cancel',this, 'yellow')">Hủy đổi</button>
+                                                </div>                                            
+                                                <div class="col l-3 tourServiceItem">
+                                                    <button class="tablink" onclick="openContent('Note',this, 'yellow')">Lưu ý</button>
+                                                </div>     -->
+                                                <button class="tablink" onclick="openContent('PriceInclude',this, '#EE4D2D')" id="defaultOpen">Gía bao gồm</button>  
+                                                <button class="tablink" onclick="openContent('PriceUnInclude',this, '#EE4D2D')">Gía không bao gồm</button>        
+                                                <button class="tablink" onclick="openContent('Cancel',this, '#EE4D2D')">Hủy đổi</button>             
+                                                <button class="tablink" onclick="openContent('Note',this, '#EE4D2D')">Lưu ý</button>                 
+                                            </div>                                   
+                                        </div>                                       
+                                    </div>
+                                </div>
+                                <div class="dieukhoan">
+                                    <!-- PriceInclude -->
+                                    <div id="PriceInclude" class="tabcontent">
+                                        <p class="tabcontent__text"><span style="text-decoration: underline;">Vận chuyển: </span></p>
+                                        <p class="tabcontent__text">- Xe tham quan (16, 29, 35, 45 chỗ tùy theo số lượng) đón - tiễn và phục vụ theo chương trình.</p>
+                                        <p class="tabcontent__text">- Vé máy bay khứ hồi: Viet jet Air ( 07 kg sách tay + 20 kg hành lý ký gửi/kiện).</p>
+                                        <p class="tabcontent__text"><span style="text-decoration: underline;">Lưu trú:</span></p>
+                                        <p class="tabcontent__text">-&nbsp;&nbsp;Khách sạn 3 sao: 2 – 3 khách/phòng (trường hợp lẻ nam, nữ ở phòng 03).</p>
+                                        <p class="tabcontent__text"><span style="text-decoration: underline;">Khác:</span></p>
+                                        <p class="tabcontent__text">- Ăn uống theo như chương trình.</p>
+                                        <p class="tabcontent__text">- Tham quan: Vé tham quan các điểm du lịch theo chương trình.</p>
+                                        <p class="tabcontent__text">- Hướng dẫn viên tiếng Việt: Phục vụ nhiệt tình, tận tâm, chu đáo.</p>
+                                        <p class="tabcontent__text">- Quà tặng: Nón du lịch , 01 nước suối (0.5 lít/ngày).</p>
+                                        <p class="tabcontent__text">- Để xác nhận việc lấy hóa đơn đỏ VAT, Quý khách phải cung cấp thông tin ngay khi đăng ký.</p>
+                                        <p class="tabcontent__text">- Bảo hiểm: Du lịch chọn tour, mức bồi thường tối đa 20.000.000 đ/trường hợp.</p>
+                                    </div>
+                                    <!-- PriceUnInclude -->
+                                    <div id="PriceUnInclude" class="tabcontent">
+                                        <p class="tabcontent__text">- Ăn uống, vui chơi giải trí cá nhân .. ngoài chương trình.</p>
+                                        <p class="tabcontent__text">- 01 bữa ăn tối tại Sapa (bữa tối ,ngày thứ 2 theo chương trình).</p>
+                                        <p class="tabcontent__text">- Cáp treo Fanxipang 850.000 vnđ/khách.</p>
+                                        <p class="tabcontent__text">- Tham quan cây cầu kính Rồng Mây.</p>
+                                        <p class="tabcontent__text">- Cáp treo Sunworld Hạ Long,…</p>
+                                        <p class="tabcontent__text">- Vé xe điện khứ hồi lên Chùa Bái Đính : 60.000đ/ khách.</p>
+                                        <p class="tabcontent__text">- Phụ Thu phòng đơn.</p>
+                                    </div>
+                                    <!--Cancel-->                            
+                                    <div id="Cancel" class="tabcontent">
+                                        <b>Chính sách hủy:</b><br> <p class="tabcontent__text">Mọi sự thay đổi liên quan đến vé đã xuất: ngày giờ đi, tên hành khách, hủy vé, vui lòng chịu chi phí theo qui định sau:</p>
+                                        <p class="tabcontent__text">- Ngay sau khi đăng ký tour nếu hủy sẽ bị phạt tiền tour và vé máy bay:&nbsp;</p>
+                                        <p class="tabcontent__text">- Ngay sau khi đặt cọc hoặc thanh toán hoặc trước 15 ngày: phí hủy 10% tiền tour + 100% Vé máy bay.</p>
+                                        <p class="tabcontent__text">- Hủy 10 ngày trước ngày khởi hành: phí hủy 50% tiền tour + 100% vé máy bay.</p>
+                                        <p class="tabcontent__text">- Hủy 07 ngày trước ngày khởi hành: phí hủy 70% tiền tour&nbsp; + 100% vé máy bay.</p>
+                                        <p class="tabcontent__text">- Hủy&nbsp; 05 ngày trước ngày khởi hành: phí hủy 100% tiền tour&nbsp; + 100% vé máy bay.</p>
+                                        <p class="tabcontent__text">(Các ngày đặt cọc, thanh toán, huỷ và dời tour: không tính thứ 7, Chủ Nhật, Lễ - Tết)</p>
+                                        <p class="tabcontent__text">- Quý khách có mặt trước giờ bay 120 tại điểm hẹn, trường hợp quý khách đến trễ giờ khởi hành, được tính là hủy 5 ngày trước ngày khởi hành.</p>
+                                        <p class="tabcontent__text">- Do tính chất là đoàn ghép khách lẻ,công ty sẽ có trách nhiệm nhận khách đăng ký cho đủ đoàn ( trên 10 người lớn) thì đoàn sẽ khởi hành đúng lịch trình. Nếu số lượng đoàn dưới 10 khách, công ty có trách nhiệm thông báo cho khách trước ngày khởi hành 3 ngày và sẽ thỏa thuận lại ngày khởi hành mới hoặc hoàn trả toàn bộ số tiền đã đặt cọc tour.</p>
+                                        <p class="tabcontent__text">- Việc huỷ bỏ chuyến đi phải được thông báo trực tiếp với Công ty hoặc qua fax, email, tin nhắn và phải được Công ty xác nhận. Việc huỷ bỏ bằng điện thoại không được chấp nhận.</p>
+                                        <p class="tabcontent__text">- Đối với sự thay đổi lịch trình, giờ bay do lỗi của hãng hàng không, tàu hoả, tàu thuỷ,&nbsp;công ty&nbsp;sẽ không chịu trách nhiệm bất kỳ phát sinh nào do lỗi trên như: phát sinh bữa ăn, nhà hàng, khách sạn, phương tiện di chuyển, hướng dẫn viên, ….</p>                                     
+                                    </div>
+                                    <!-- Note -->
+                                    <div id="Note" class="tabcontent">
+                                        <p class="tabcontent__text">- Trong những trường hợp bất khả kháng như: khủng bố, bạo động, thiên tai, lũ lụt. dịch bệnh… Tuỳ theo tình hình thực tế và sự thuận tiện, an toàn của khách hàng,&nbsp;công ty&nbsp;sẽ chủ động thông báo cho khách hàng sự thay đổi như sau: huỷ hoặc thay thế bằng một chương trình mới với chi phí tương đương chương trình tham quan trước đó. Trong trường hợp chương trình mới có phát sinh thì Khách hàng sẽ thanh toán khoản phát sinh này. Tuy nhiên, mỗi bên có trách nhiệm cố gắng tối đa, giúp đỡ bên bị thiệt hại nhằm giảm thiểu các tổn thất gây ra vì lý do bất khả kháng.…</p>
+                                        <p class="tabcontent__text">- Khi Quý khách đăng kí tour, xác nhận sự chính xác về họ, tên (đúng từng ký tự ghi trong hộ chiếu hoặc CMND), ngày-tháng-năm sinh.. của hành khách theo yêu cầu của hãng vận chuyển.</p>
+                                        <p class="tabcontent__text">- Do đặc điểm địa hình, tại Sapa quý khách chủ yếu đi bộ để tham quan, vì thế quý khách vui lòng lựa chọn trang phục phù hợp.</p>
+                                        <p class="tabcontent__text">- Quý khách trên 70 tuổi hoặc phụ nữ có Thai dưới 06 Tháng (Vì lý do sức khỏe của Thai phụ, chúng tôi từ chối cung cấp dịch vụ tour cho Phụ nữ mang thai trên 06 tháng) khi đi phải có giấy xác nhận đảm bảo sức khỏe của Bệnh viện cấp Quận/ Huyện trở lên.</p>
+                                        <p class="tabcontent__text">- Khi đi du lịch Quý khách dưới 14 tuổi mang theo giấy khai sinh bản chính hoặc hộ chiếu còn hạn, Trên&nbsp; 14 tuổi phải đem theo giấy CMND, Hộ Chiếu, CCCD bản chính, hình ảnh rõ, còn hạn sử dụng trong vòng 15 năm kể từ ngày cấp hoặc Hộ Chiếu còn hạn.</p>
+                                        <p class="tabcontent__text">- Riêng khách Việt Kiều phải mang theo Hộ Chiếu hoặc thẻ xanh kèm theo Visa và giấy tái xuất nhập Việt Nam làm thủ tục lên máy bay.</p>
+                                        <p class="tabcontent__text">- Hành lý sách tay: Tối đa 07 ký xách tay /khách, không để các vật dụng sắc nhọn, chất dễ cháy .</p>
+                                        <p class="tabcontent__text">- Hành lý ký gửi: tối đa 20kg /khách, không để máy chụp ảnh, máy tính sách tay, tư trang, tiền bạc có giá trị vào hành lý ký gửi.</p>
+                                        
+                                    </div>
+                                </div>
+
+                                <script>
+                                    /* Khi nhấn nút DESCRIPTION, MAP, REVIEW ..... */
+                                    function openContent(cityName, element, color) {
+                                        var i, tabcontent, tablinks;
+                                        //an di phan noi dung
+                                        tabcontent = document.getElementsByClassName("tabcontent");
+                                        for (i = 0; i < tabcontent.length; i++) {
+                                            tabcontent[i].style.display = "none";
+                                        }
+                                        //gan mau cho phan tablink la rong
+                                        tablinks = document.getElementsByClassName("tablink");
+                                        for (i = 0; i < tablinks.length; i++) {
+                                            tablinks[i].style.backgroundColor = "";
+                                        }
+                                        //
+                                        document.getElementById(cityName).style.display = "block";
+                                        element.style.backgroundColor = color;
+                                    }
+                                    // Get the element with id="defaultOpen" and click on it
+                                    document.getElementById("defaultOpen").click();
+                                </script>
+                            </div>
+
+                            <!-- --------- -->
+                            <div class="col l-4">
+                                <div class="content__main-left">
+                                    <div class="content__detail">
+                                        <div class="content__name">Tour Miền Tây 4N3D: HCM - Mỹ Tho - Cần Thơ - Côn Đảo Tết Tân Sửu</div>
+                                        <ul class="content_pt">
+                                            <li class="content__tpt">
+                                                <div class="at">Mã tour</div>
+                                                <div class="as">124</div>
+                                            </li>
+                                            <li class="content__tpt">
+                                                <div class="at">Thời gian</div>
+                                                <div class="as">4 ngày 3 đêm</div>
+                                            </li>
+                                            <li class="content__tpt">
+                                                <div class="at">Khởi hành</div>
+                                                <div class="as">1/1/2022</div>
+                                            </li>
+                                            <li class="content__tpt">
+                                                <div class="at">Vận chuyển</div>
+                                                <div class="as">Máy bay</div>
+                                            </li>
+                                            <li class="content__tpt">
+                                                <div class="at">Xuất phát</div>
+                                                <div class="as">Từ Hồ Chí Minh</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="content__main-between">
+                                    <div class="content__price">
+                                        <span class="content__gia" id="giactt">Giá từ:</span>
+                                        <span class="content__money">5,200,000đ</span>
+                                    </div>
+                                    <div class="content__content">
+                                        <div class="content__form">
+                                            <input type="text"  name="dDate" id="dDate" value="2020-12-21" readonly="">
+                                        </div>
+                                        <div class="content__btn">
+                                            <a href="index.php?page=booking-tour&amp;matour=2">
+                                                <button type="button" class="btn-order-tour">đặt tour</button>
+                                            </a>                         
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="boxDesign2">
+                                    <ul>
+                                        <li class="">
+                                            <a href="#flag1"><i class="fas fa-info-circle boxDesign2__icon"></i><span class="boxDesign__text ">Điểm nhấn hành trình</span></a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#flag2"><i class="fa fa-map boxDesign2__icon"></i><span class="boxDesign__text ">Lịch trình</span></a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#flag3"><i class="fa fa-paperclip boxDesign2__icon"></i><span class="boxDesign__text ">Dịch vụ bao gồm và không bao gồm</span></a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#flag4"><i class="fas fa-calendar-day boxDesign2__icon"></i><span class="boxDesign__text ">Ngày khởi hành khác</span></a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="#flag5"><i class="fas fa-sticky-note boxDesign2__icon"></i><span class="boxDesign__text ">Ghi chú</span></a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#flag6"><i class="fas fa-comments boxDesign2__icon"></i><span class="boxDesign__text ">Bình luận</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>                     
+                </div>
+            </div>
+            
+            
+
+            
+        </div>
+        <footer class="footer">
+            <div class="grid wide footer_content">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng Dẫn Mua Hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chính Sách Vận Chuyển</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                            VỀ NICETRIP
+                        </h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Chúng tôi</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">NICETRIP Blog</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">PMS - Miễn phí</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Thông Tin Cần Biết</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">                               
+                                <a href="" class="footer-item__link">
+                                    Điều kiện & Điều khoản                             
+                                </a>                       
+                            </li>  
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">
+                                    Quy chế hoạt động
+                                </a>
+                            </li>        
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">
+                                    Câu hỏi thường gặp
+                                </a>  
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                            THEO DÕI CHÚNG TÔI TRÊN
+                        </h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">                               
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>                       
+                            </li>  
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>        
+                            <li class="footer-item">  
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram"></i>
+                                    Linkedin
+                                </a>  
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading">
+                            VÀO CỬA HÀNG TRÊN ỨNG DỤNG NICETRIP
+                        </h3>
+                        <div class="footer__download">
+                            <img src="img/qr_code.png" alt="Download QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="img/googleplay.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
+                                <a href=""  class="footer__download-app-link">
+                                    <img src="img/app_store.png" alt="App Store" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text">© 2021 - Bản quyền thuộc về Công ty TNHH NICETRIP</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+
+
+        <!-- Modal  layout -->
+        <div class="modal" id="modal">
+            <!-- Phan mau den mo -->
+            <div class="modal__overlay">
+            </div>
+
+            <div class="modal__body">                                            
+                <!--Login  form -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập </h3>
+                            <span class="auth-form_switch-btn" id="register_header">Đăng ký</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help--link auth-form__help--focus">Quân mật khẩu</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help--link">Cần trợ giúp</a>
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__controls-back" id="home">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook auth-form__socials-icon btn btn--size-s btn--width-icon">
+                            <i class="fab fa-facebook"></i>
+                            <span class="auth-form__socials-label">Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google auth-form__socials-icon btn btn--size-s btn--width-icon">
+                            <i class="fab fa-google"></i>
+                            <span class="auth-form__socials-label">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <!-- Modal  layout 2-->
+        <div class="modal2" id="modal2">
+            <!-- Phan mau den mo -->
+            <div class="modal__overlay2">
+            </div>
+
+            <div class="modal__body2">
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký </h3>
+                            <span class="auth-form_switch-btn" id="login__header">Đăng nhập</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng ký, bạn đã đồng ý với NICETRIP về
+                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__controls-back" id="home2">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook auth-form__socials-icon btn btn--size-s btn--width-icon">
+                            <i class="fab fa-facebook"></i>
+                            <span class="auth-form__socials-label">Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form__socials--google auth-form__socials-icon btn btn--size-s btn--width-icon">
+                            <i class="fab fa-google"></i>
+                            <span class="auth-form__socials-label">Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div>               
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="js/lib/modernizr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/box-slider-all.jquery.min.js"></script>
+    <script src="js/detail.js"></script>
+      
+</body>
+</html>
